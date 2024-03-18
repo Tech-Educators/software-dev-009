@@ -1,0 +1,49 @@
+* {
+  font-family: sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+header {
+  background-color: #ffc017;
+  padding: 16px;
+  border-bottom: 1px solid #191919;
+}
+
+nav a {
+  color: #191919;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: black;
+}
+
+h1,
+h2 {
+  font-family: serif;
+}
+
+h2 {
+  font-size: 44px;
+}
+
+button {
+  background-color: #191919;
+  color: white;
+  padding: 8px 32px;
+  border-radius: 100px;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: black;
+}
+
+section {
+  background-color: #ffc017;
+  padding: 16px;
+}
