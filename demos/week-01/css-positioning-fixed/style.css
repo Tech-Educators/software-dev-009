@@ -1,3 +1,6 @@
+* {
+  box-sizing: border-box;
+}
 .cookie-notice {
   background-color: #191919;
   color: #fff;
