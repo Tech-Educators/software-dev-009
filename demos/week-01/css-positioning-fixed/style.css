@@ -1,0 +1,30 @@
+.cookie-notice {
+  background-color: #191919;
+  color: #fff;
+  padding: 16px;
+  border: 1px solid #ccc;
+  font-size: 32px;
+  font-family: Arial;
+  border-radius: 10px;
+
+  /* positioning styles */
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+button {
+  border: none;
+  font-size: 24px;
+  border-radius: 4px;
+  padding: 4px 8px;
+  cursor: pointer;
+}
+
+.reject {
+  background-color: coral;
+}
+
+.approve {
+  background-color: mediumspringgreen;
+}
