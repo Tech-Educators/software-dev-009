@@ -1,0 +1,32 @@
+body {
+  font-family: monospace;
+}
+
+table,
+td,
+th {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 5px;
+  text-align: center;
+}
+
+tr:nth-child(even) {
+  background-color: tomato;
+}
+
+tr:nth-child(odd) {
+  background-color: teal;
+}
+
+[rowspan] {
+  background-color: lightsalmon;
+}
+
+[colspan] {
+  background-color: fuchsia;
+}
