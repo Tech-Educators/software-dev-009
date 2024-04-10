@@ -2,7 +2,9 @@ const gamesWrapper = document.getElementById("gamesWrapper");
 
 // get the games from my api
 async function getGames() {
-  const response = await fetch("http://localhost:8080/games");
+  const response = await fetch(
+    "https://express-sql-games-demo.onrender.com/games"
+  );
   const games = await response.json();
   console.log(games);
 
