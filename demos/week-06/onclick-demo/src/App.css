@@ -1,0 +1,81 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.heading {
+  text-align: center;
+  color: grey;
+}
+
+.votes {
+  text-align: center;
+}
+
+.card-container {
+  display: flex;
+}
+
+.tree-card {
+  background-color: #dcdcdc;
+  width: 17rem;
+  height: 29rem;
+  border-radius: 1rem;
+  margin: 1rem;
+}
+
+.tree-item {
+  text-align: center;
+}
+
+.tree-item h1 {
+  padding-top: 0.5rem;
+}
+
+.tree-item img {
+  max-height: 10rem;
+  max-width: auto;
+  border-radius: 0.5rem;
+}
+
+.tree-item p {
+  font-size: 1.25rem;
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal img {
+  max-width: 80%;
+  max-height: 80vh;
+  margin: auto;
+}
+
+button {
+  border-radius: 0.25rem;
+  margin: 0.05rem;
+}
+
+.monkey-button {
+  position: center;
+  text-align: center;
+}
+
+.monkey {
+  margin-top: 0;
+  font-size: 3rem;
+}
+
+@media (max-width: 480px) {
+  .card-container {
+    flex-direction: column;
+  }
+}
