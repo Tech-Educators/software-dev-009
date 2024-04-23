@@ -1,0 +1,24 @@
+body {
+  background-color: tomato;
+  font-family: monospace;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+button {
+  background-color: tomato;
+  border: 3px solid white;
+  color: white;
+  font-family: monospace;
+  padding: 16px 24px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: white;
+  color: tomato;
+}
