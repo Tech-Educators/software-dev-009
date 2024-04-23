@@ -1,0 +1,30 @@
+/* body {
+  background-color: #ccc;
+}
+
+.image-container {
+  background-color: #444;
+}
+
+img {
+  display: block;
+} */
+
+.box1 {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  position: absolute;
+  top: 50px;
+  left: 50px;
+}
+
+.box2 {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  position: absolute;
+  top: 80px;
+  left: 80px;
+  z-index: 1;
+}
