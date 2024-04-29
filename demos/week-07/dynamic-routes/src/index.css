@@ -1,0 +1,15 @@
+nav {
+  display: flex;
+  gap: 1rem;
+}
+
+/* 
+em = the measurement of the biggest letter "M"
+That is a holdever from the days of the printing press
+
+rem = relative em
+Meaning, if you change the default size of em, this will be relative to it
+
+
+In short: 1rem = 16px
+*/
