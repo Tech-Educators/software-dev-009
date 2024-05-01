@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+  font-family: monospace;
+}
+
+header {
+  background-color: tomato;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.cookie-container {
+  background-color: aquamarine;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem;
+}
+
+footer {
+  background-color: teal;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
