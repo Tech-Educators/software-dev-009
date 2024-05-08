@@ -1,0 +1,8 @@
+.maincontainer {
+  background-color: var(--accent-colour);
+}
+
+.header,
+.footer {
+  background-color: var(--background-colour);
+}
