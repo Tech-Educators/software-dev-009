@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background-colour: #ef476f;
+  --accent-colour: #ffd166;
+  --link-colour: #097458;
+}
+
+body {
+  background-color: var(--background-colour);
+}
+
+header,
+footer {
+  background-color: var(--accent-colour);
+}
+
+nav {
+  color: var(--link-colour);
+}
