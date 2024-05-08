@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+:root {
+  --background-colour: #ef476f;
+  --accent-colour: #ffd166;
+  --link-colour: #097458;
+}
+
+body {
+  background-color: var(--background-colour);
+}
+
+header,
+footer {
+  background-color: var(--accent-colour);
+}
+
+nav {
+  color: var(--link-colour);
+}
