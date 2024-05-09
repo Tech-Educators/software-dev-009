@@ -1,0 +1,98 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: "Arial", sans-serif;
+  background-color: #f0f4f8;
+}
+
+h1,
+h2,
+h3 {
+  color: #333;
+}
+
+nav {
+  background-color: #fff;
+  padding: 10px 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #0070f3;
+  font-weight: bold;
+  padding: 5px 10px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Home page specific styles */
+.home-container {
+  padding: 20px;
+}
+
+.froguin-item {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.froguin-item h3 {
+  color: #2c5282;
+  margin-top: 0;
+}
+
+.froguin-item p {
+  color: #4a5568;
+  font-size: 14px;
+}
+
+/* Add Froguin page styles */
+.add-froguin-container {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 500px;
+  margin: 20px auto;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.add-froguin-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.add-froguin-container label {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.add-froguin-container input {
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.add-froguin-container button {
+  background-color: #48bb78;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+.add-froguin-container button:hover {
+  background-color: #38a169;
+}
