@@ -8,6 +8,6 @@ CREATE TABLE profiles (
 
 CREATE TABLE posts (
     id SERIAL PRIMARY KEY,
-    user_id INT REFERENCES profiles(id),
+    profile_id INT REFERENCES profiles(id),
     content TEXT
 );
