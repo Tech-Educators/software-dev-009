@@ -1,0 +1,10 @@
+.cats {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.cats img {
+  max-width: 400px;
+  height: auto;
+}
